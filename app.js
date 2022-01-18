@@ -44,20 +44,8 @@ app.get("/signup",function(req,res){
   res.render("signup");
 });
 
-app.get("/contact",function(req,res){
-  res.render("contact");
-});
-
 app.get("/login",function(req,res){
   res.render("login");
-});
-
-app.get("/already",function(req,res){
-  res.render("already");
-});
-
-app.get("/registered",function(req,res){
-  res.render("registered");
 });
 
 // Syringe Image
