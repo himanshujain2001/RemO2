@@ -1,0 +1,44 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Signup</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link href="css/signup.css" rel="stylesheet" >
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon1.ico">
+
+  </head>
+  <body class="text-center">
+
+<main class="form-signin">
+    <img class="mb-4 signupimage" src="https://selfregistration.cowin.gov.in/assets/images/login-screen.svg" alt="" width="120" height="120">
+    <h1 class="h3 mb-3 fw-normal">Please Signup</h1>
+
+    <form action="/signup" method="POST">
+      <div class="form-floating input-container">
+      <input type="text" class="form-control top input-field input" name="hospital" placeholder="Hospital Name" autocomplete="off" autofocus required>
+      </div>
+      <div class="form-floating input-container">
+      <input type="email" class="form-control middle input-field input" name="emailid" placeholder="E-mail" autocomplete="off" required>
+      </div>
+      <div class="form-floating input-container">
+      <input type="text" class="form-control bottom input-field input" name="city" placeholder="City" autocomplete="off" required>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary button" type="submit">Signup</button>
+    </form>
+    <p class="paragraph">Copyright © 2021 RemOxy. All Rights Reserved</p>
+
+</main>
+
+  </body>
+</html>

@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  background-image: url("https://www.hopkinsmedicine.org/-/media/images/health/1_-conditions/coronavirus/vaccine-hero.ashx?h=500&iar=0&mh=500&mw=1300&w=1297&hash=E75B9A77EBDF9D8D82B41652FB295CB2");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h3 {
+  font-size: 30px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.signupimage {
+  background-color: #fff;
+  border-radius: 100%;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 3px 0;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input {
+  letter-spacing: 0.2ch;
+  width: 100%;
+  padding: 15px;
+  outline: none;
+}
+
+/* .input-field {
+  letter-spacing: 0.2ch;
+} */
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.button {
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-top: 10px;
+}
+
+.paragraph {
+  margin-top: 30px;
+}

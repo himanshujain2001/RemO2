@@ -1,0 +1,22 @@
+body {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.heading1 {
+  padding-top: 30px;
+  color: #FF3333;
+}
+/* 007bff */
+
+.button {
+  margin-top: 20px;
+  padding: 5px 40px;
+}
+
+.warning {
+  margin-top: 20px;
+  color: #ffcc00;
+}
+/* 4E9F3D */
+/* 3E7C17 */
